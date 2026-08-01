@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  box-sizing:border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=swap");
+html,body{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.imge {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+ 
+  
+ 
+}
+.imge img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+
+
+
+.container {
+  background-color: rgba(255, 255, 255, 0.548);
+  height: 550px;
+  width: 750px;
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 4px DOTTED black;
+
+
+}
+.container H1{
+  text-align: center;
+  opacity: 1;
+  margin-top: 10px;
+  color: rgb(255, 0, 0);
+  
+}
+.container #reg{
+  font-weight: 500;
+  color: black;
+  font-size: 18px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+ .container H3{
+  font-size: 24px;
+  margin: 20px 20px 0px 20px;
+  color: forestgreen;
+}
+.input1 input{
+  height: 40px;
+  width: 240px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: red;
+  padding: 5px;
+  font-weight: 700;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input1{
+  margin-left: 25px;
+  display: flex;
+  gap: 50px;
+  }
+.first{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+  width: 40%;
+ 
+}
+.first span{
+  margin-top: 4px;
+  font-weight: 600;
+  font-family:sans-serif;
+}
+#gender{
+  height: 40px;
+  width: 240px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 700;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.input1 option{
+  color: black;
+  font-weight: 600;
+  font-family: cursive;
+}
+.div2{
+  margin-top: 10px;
+}
+.div2 H3{
+  display: inline;
+  
+  }
+  .div2 #email{
+    margin-left: 242px;
+  }
+  #email{
+    width: 300px;
+  }
+  .input2{
+    margin-top: 20px;
+  }
+  #email2{
+    color: grey;
+    font-weight: 500;
+  }
+  .input3{
+    margin-top:20px;
+  }
+  #courses{
+    margin-left: 208px;
+  }
+  .btn{
+    margin-top: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 80px;
+  }
+  .btn button{
+    height: 40px;
+    width: 100px;
+    background-color: rgba(77, 0, 177, 0.397);
+    font-family: Georgia, Times;
+    font-weight: 700;
+    border: 2.5px solid  black;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+    .btn button:hover{
+      scale: 0.8;
+    }
+  .btn #rst{
+    background-color: rgb(43, 220, 226);
+  }
+  .msg{
+      font-weight: 600;
+      color: rgb(3, 18, 156);
+      font-size: 22px;
+      margin-top: 7px;
+      text-align: center;
+      text-decoration: underline 2px solid green;
+
+
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
